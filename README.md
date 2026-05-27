@@ -454,3 +454,4 @@ For any issues or feature requests, please contact the development team.
 6. ✅ Login to admin at http://localhost:3000/admin
 7. ✅ Add your first products!
 8. ✅ Deploy to Vercel!
+"# LycaronzDesigns" 
