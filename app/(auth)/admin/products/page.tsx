@@ -76,9 +76,11 @@ export default function AdminProducts() {
       const data = await res.json();
       if (data.url) {
         setFormData(prev => ({ ...prev, [type]: data.url }));
+        toast.success(`${type === 'imageUrl' ? 'Image' : 'Video'} uploaded successfully!`);
       }
     } catch (error) {
       console.error('Upload failed:', error);
+      toast.error('Upload failed. Please try again.');
     } finally {
       setUploading(false);
     }
@@ -100,6 +102,7 @@ export default function AdminProducts() {
       });
 
       if (res.ok) {
+        toast.success(editingProduct ? 'Product updated!' : 'Product created!');
         setIsModalOpen(false);
         setEditingProduct(null);
         setFormData({
@@ -112,6 +115,9 @@ export default function AdminProducts() {
           featured: false,
         });
         fetchProducts();
+      } else {
+        const errData = await res.json();
+        toast.error(errData.error || 'Failed to save product');
       }
     } catch (error) {
       console.error('Failed to save product:', error);

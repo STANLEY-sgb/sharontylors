@@ -93,7 +93,7 @@ export default function AdminDashboard() {
     <div className="space-y-10">
       <header>
         <h1 className="text-4xl font-black tracking-tight text-gray-900 uppercase">Dashboard</h1>
-        <p className="text-gray-500 font-medium">Welcome back to Sharon Tailors Admin Panel.</p>
+        <p className="text-gray-500 font-medium">Welcome back to Lycaronz Designs Admin Panel.</p>
       </header>
 
       {/* Stats Grid */}

@@ -12,11 +12,11 @@ export const SERVICES = [
 ];
 
 export const BUSINESS_INFO = {
-  name: 'Sharon Tailors',
-  tagline: 'Custom Style, Perfect Fit',
+  name: 'Lycaronz Designs',
+  tagline: 'Exquisite Fashion, Perfect Fit',
   location: 'Kampala, Jemba Plaza, just after Old Taxi Park',
   phone: '+256 705 241 179 / +256 702 084 480',
-  email: 'info.sharontylors@gmail.com',
+  email: 'info.lycaronz@gmail.com',
   whatsapp: '+256 702 084 480 / +256 705 241 179',
 };
 

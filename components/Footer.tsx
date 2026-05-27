@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           <div>
-            <h3 className="font-bold text-lg mb-4">Sharon Tailors</h3>
+            <h3 className="font-bold text-lg mb-4">Lycaronz Designs</h3>
             <p className="text-gray-300">{BUSINESS_INFO.tagline}</p>
           </div>
 
@@ -65,7 +65,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-gray-500 pt-8 text-center text-gray-300">
-          <p>&copy; 2026 Sharon Tailors. All rights reserved.</p>
+          <p>&copy; 2026 Lycaronz Designs. All rights reserved.</p>
         </div>
       </div>
     </footer>

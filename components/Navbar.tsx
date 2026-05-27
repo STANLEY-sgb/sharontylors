@@ -36,12 +36,12 @@ export default function Navbar() {
             <div className={`w-12 h-12 rounded-2xl flex items-center justify-center font-black text-xl transition-all duration-500 group-hover:rotate-12 ${
               scrolled ? 'bg-primary text-white shadow-lg' : 'bg-white text-primary'
             }`}>
-              ST
+              LD
             </div>
             <span className={`font-black text-2xl tracking-tighter hidden sm:block ${
               scrolled ? 'text-primary' : 'text-white'
             }`}>
-              SHARON <span className={scrolled ? 'text-secondary' : 'text-white/80'}>TAILORS</span>
+              LYCARONZ <span className={scrolled ? 'text-secondary' : 'text-white/80'}>DESIGNS</span>
             </span>
           </Link>
 
@@ -93,7 +93,7 @@ export default function Navbar() {
             className="fixed inset-0 z-[110] bg-primary flex flex-col p-8 md:hidden"
           >
             <div className="flex justify-between items-center mb-16">
-              <span className="text-white font-black text-2xl tracking-tighter">ST MENU</span>
+              <span className="text-white font-black text-2xl tracking-tighter">LD MENU</span>
               <button 
                 onClick={() => setIsOpen(false)}
                 className="w-12 h-12 bg-white/10 rounded-full flex items-center justify-center text-white"

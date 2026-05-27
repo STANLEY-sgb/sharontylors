@@ -16,7 +16,7 @@ export default function AboutPage() {
             animate={{ opacity: 1, y: 0 }}
             className="text-center mb-20"
           >
-            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">About Sharon Tailors</h1>
+            <h1 className="text-4xl md:text-5xl font-bold text-primary mb-6">About Lycaronz Designs</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Dedicated to the art of tailoring, we bring your fashion dreams to life with precision, 
               passion, and a perfect fit.
@@ -33,7 +33,7 @@ export default function AboutPage() {
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Our Story</h2>
               <div className="space-y-4 text-gray-600 leading-relaxed">
                 <p>
-                  Founded in the heart of Kampala, Sharon Tailors began with a simple mission: 
+                  Founded in the heart of Kampala, Lycaronz Designs began with a simple mission: 
                   to provide high-quality, custom-tailored clothing that makes people feel confident 
                   and comfortable.
                 </p>
@@ -54,7 +54,7 @@ export default function AboutPage() {
               transition={{ delay: 0.2 }}
               className="relative aspect-square rounded-2xl overflow-hidden shadow-2xl bg-primary flex items-center justify-center text-white text-4xl font-bold"
             >
-              <span className="text-center p-8">Sharon Tailors<br/>Since 2026</span>
+              <span className="text-center p-8">Lycaronz Designs<br/>Since 2026</span>
             </motion.div>
           </div>
 

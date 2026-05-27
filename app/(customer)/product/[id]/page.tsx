@@ -81,7 +81,7 @@ export default function ProductDetails() {
     );
   }
 
-  const whatsappLink = `https://wa.me/${BUSINESS_INFO.whatsapp.replace(/\D/g, '')}?text=Hi Sharon Tailors! I am interested in the "${product.name}" (UGX ${product.price.toLocaleString()}). Can I get more details?`;
+  const whatsappLink = `https://wa.me/${BUSINESS_INFO.whatsapp.replace(/\D/g, '')}?text=Hi Lycaronz Designs! I am interested in the "${product.name}" (UGX ${product.price.toLocaleString()}). Can I get more details?`;
 
   return (
     <div className="bg-white">
@@ -201,7 +201,7 @@ export default function ProductDetails() {
               <div className="mb-12 min-h-[100px]">
                 {activeTab === 'description' && (
                   <motion.p initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-gray-600 text-lg leading-relaxed font-medium">
-                    {product.description || "No description provided for this exquisite piece. Each Sharon Tailors garment is handcrafted with precision and care to ensure a perfect fit and timeless style."}
+                    {product.description || "No description provided for this exquisite piece. Each Lycaronz Designs garment is handcrafted with precision and care to ensure a perfect fit and timeless style."}
                   </motion.p>
                 )}
                 {activeTab === 'specifications' && (

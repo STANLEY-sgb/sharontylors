@@ -5,18 +5,18 @@ import { Toaster } from 'sonner';
 import VisitTracker from '@/components/VisitTracker';
 
 export const metadata: Metadata = {
-  title: 'Sharon Tailors - Custom Tailoring & E-Commerce',
-  description: 'Modern tailoring and fashion e-commerce shop. Custom style, perfect fit.',
-  keywords: ['Sharon', 'Sharon Tailors', 'Tailoring', 'Custom Tailoring', 'Dressmaking', 'Boutique', 'Kampala'],
+  title: 'Lycaronz Designs - Custom Tailoring & Fashion',
+  description: 'Modern tailoring and fashion e-commerce shop. Exquisite style, perfect fit.',
+  keywords: ['Lycaronz', 'Lycaronz Designs', 'Tailoring', 'Custom Tailoring', 'Dressmaking', 'Boutique', 'Kampala'],
   openGraph: {
-    title: 'Sharon Tailors',
-    description: 'Custom Style, Perfect Fit',
+    title: 'Lycaronz Designs',
+    description: 'Exquisite Style, Perfect Fit',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Sharon Tailors',
-    description: 'Custom Style, Perfect Fit',
+    title: 'Lycaronz Designs',
+    description: 'Exquisite Style, Perfect Fit',
   },
   robots: {
     index: true,
