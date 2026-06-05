@@ -3,6 +3,7 @@ import './globals.css';
 import { Providers } from '@/components/Providers';
 import { Toaster } from 'sonner';
 import VisitTracker from '@/components/VisitTracker';
+import { SpeedInsights } from '@vercel/speed-insights/next';
 
 export const metadata: Metadata = {
   title: 'Lycaronz Designs - Custom Tailoring & Fashion',
@@ -36,6 +37,7 @@ export default function RootLayout({
           {children}
           <VisitTracker />
           <Toaster position="top-center" richColors />
+          <SpeedInsights />
         </Providers>
       </body>
     </html>
